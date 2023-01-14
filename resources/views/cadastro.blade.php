@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    
+<main>
+ <h1 class="text-center" id="title">Cadastro</h1>
+ <input id="box-email" type="text" placeholder="Usuário"><br><br>
+ <input id="box-email" type="text" placeholder="Email"><br><br>
+ <input id="box-senha" type="password" placeholder="Senha"><br><br>
+ <input id="box-senha" type="password" placeholder="Confirmar senha"><br><br>
+ <button id="button-enviar">Enviar</button>
+</main>
 </body>
 </html>

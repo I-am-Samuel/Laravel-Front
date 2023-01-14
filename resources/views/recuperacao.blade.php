@@ -11,21 +11,13 @@
   </head>
   <body>
     <main>
-      <h1 class="text-center" id="title">Entrar</h1>
-      <input id="box-email" type="text" placeholder="Usuário"><br><br>
-      <input id="box-senha" type="password" placeholder="Senha"><br><br>
-      <div class="form-group form-check">
-            <input class="form-check-input" type="checkbox" id="check">
-            <label class="form-check-label" for="check">lembre-me</label>
-            </div><br>
+      <h1 class="text-center" id="title">Recuperação de senha</h1>
+      <input id="box-email" type="text" placeholder="Email"><br><br>
       <button id="button-enviar">Enviar</button>
-      <br><br>
       <div class="row">
-        <div class="col text-center">
-          <a href="cadastro">Registrar-se</a>
+        <div class="col">
         </div>
-        <div class="col text-center">
-          <a href="recuperacao">Esqueci minha senha</a>
+        <div class="col">
         </div>
       </div>
     </main>

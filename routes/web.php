@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/entrar', function () {
     return view('entrar');
 });
 
@@ -21,6 +21,10 @@ Route::get('/cadastro', function () {
     return view('cadastro');
 });
 
+Route::get('/recuperacao', function () {
+    return view('recuperacao');
+});
 Route::get('/inicio', function () {
     return view('inicio');
 });
+
