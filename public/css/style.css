@@ -4,7 +4,6 @@ body, html{
 body{
     background-image: linear-gradient(to bottom, #404258, #474E68, #50577A, #6B728E);
     font-family: Arial, Helvetica, sans-serif;
-
 }
 main{
     background-color: rgba(0, 0, 0, 0.5);

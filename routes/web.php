@@ -24,7 +24,15 @@ Route::get('/cadastro', function () {
 Route::get('/recuperacao', function () {
     return view('recuperacao');
 });
+
 Route::get('/inicio', function () {
     return view('inicio');
 });
 
+Route::get('/tabelaturma', function () {
+    return view('table');
+});
+
+Route::get('/tabelaAluno', function () {
+    return view('tableAluno');
+});
